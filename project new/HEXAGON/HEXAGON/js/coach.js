@@ -1,0 +1,1 @@
+function askCoach(){const q=document.getElementById("question").value.trim();const a=document.getElementById("answer");if(!q)return;a.style.display="block";a.textContent="Based on your goal, focus on controlled reps, progressive overload and recovery. Keep your form strict and increase weight gradually."; }

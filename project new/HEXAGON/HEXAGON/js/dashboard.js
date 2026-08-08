@@ -1,0 +1,1 @@
+if(localStorage.getItem("hexagonLoggedIn")!=="true"){location.href="login.html"}const user=JSON.parse(localStorage.getItem("hexagonUser")||"null");if(user)document.getElementById("username").textContent=user.name.split(" ")[0];function logout(){localStorage.removeItem("hexagonLoggedIn");location.href="login.html"}
